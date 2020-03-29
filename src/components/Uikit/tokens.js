@@ -15,10 +15,10 @@ const designTokens = {
       xs: '16px',
       s: '18px',
       base: '20px',
-      xm: '',
-      m: '24px',
-      l: '26px',
-      xl: '30px',
+      xm: '24px',
+      m: '26px',
+      l: '30px',
+      xl: '36px',
       xxl: '42px',
     },
   },
@@ -29,6 +29,13 @@ const designTokens = {
 
   colors: {
     colorPalette: {
+      ink: {
+        base: '#170C3A',
+        light: '#8F8A9B',
+        lighter: '#B1ADB9',
+        lightest: '#C7C4CD',
+      },
+
       grey: {
         base: '#FAFAFA',
       },
@@ -48,7 +55,7 @@ const designTokens = {
     },
 
     brand: {
-      black: '#000000',
+      black: '#170C3A',
       white: '#FFFFFF',
       green: '#1DB954',
     },
