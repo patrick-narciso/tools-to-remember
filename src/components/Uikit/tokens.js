@@ -36,21 +36,42 @@ const designTokens = {
         lightest: '#C7C4CD',
       },
 
-      grey: {
-        base: '#FAFAFA',
+      blue: {
+        base: '#365DF0',
+        darker: '#244AA8',
+        dark: '#2F55CC',
+        light: '#9AAEF7',
+        lighter: '#B9C6FA',
+        lightest: '#CAD6FC',
+        mostLightest: '#E1E7FD',
       },
 
       green: {
-        dark: '#15573F',
-        light: '#7BAF9E',
+        base: '#12DB89',
+        darker: '#0E995D',
+        dark: '#10B26C',
+        light: '#88EDC4',
+        lighter: '#B7F7D8',
+        lightest: '#CFF9E6',
+        mostLightest: '#E7FBF3',
       },
 
-      coral: {
-        base: '#FD9872',
+      red: {
+        base: '#F95E5A',
+        darker: '#A53F3F',
+        dark: '#CC4C4C',
+        light: '#FCAEAC',
+        lighter: '#FCC6C5',
+        lightest: '#FCD7D6',
+        mostLightest: '#FEEFEE',
       },
 
-      background: {
-        base: '#000000',
+      white: {
+        base: '#FFFFFF',
+        dark: '#FCFCFD',
+        darker: '#F5F4F6',
+        darkest: '#EBEAED',
+        mostDarkest: '#DEDCE1',
       },
     },
 
