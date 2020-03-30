@@ -16,6 +16,7 @@ const BaseCard = styled.div`
   min-height: 283px;
   background-color: ${tokens.color('white', 'base')};
   border: 1px solid ${tokens.color('white', 'darkest')};
+  padding: 30px;
   border-radius: 5px;
   opacity: 1;
   box-shadow: ${({ elevation }) => elevationLevels[elevation]};

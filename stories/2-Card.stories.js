@@ -14,7 +14,7 @@ export const flat = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col xs={4} md={4} sm={4} lg={4}>
         <Card />
       </Col>
     </Row>
@@ -29,7 +29,7 @@ export const firstElevation = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col xs={4} md={4} sm={4} lg={4}>
         <Card elevation={1} />
       </Col>
     </Row>
@@ -44,7 +44,7 @@ export const secondElevation = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col xs={4} md={4} sm={4} lg={4}>
         <Card elevation={2} />
       </Col>
     </Row>
@@ -59,7 +59,7 @@ export const thirdElevation = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col xs={4} md={4} sm={4} lg={4}>
         <Card elevation={3} />
       </Col>
     </Row>
@@ -74,7 +74,7 @@ export const fourthElevation = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col xs={4} md={4} sm={4} lg={4}>
         <Card elevation={4} />
       </Col>
     </Row>

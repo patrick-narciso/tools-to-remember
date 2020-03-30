@@ -9,7 +9,7 @@ const Heading = ({ children, size }) => (
 );
 
 Heading.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.element, PropTypes.arrayOf(PropTypes.element)]),
+  children: PropTypes.node,
   size: PropTypes.number.isRequired,
 };
 
